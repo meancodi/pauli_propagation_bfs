@@ -1,0 +1,1 @@
+{"tier":"moderate","started":"2026-11-18T20:53:57.553","julia_version":"1.13.4","threads":1,"wall_budget_seconds":7200.0,"resumable":true,"hard_memory_limit":false,"warning":"Windows runner uses admission estimates and per-case Julia safeguards; no hard RSS kill is claimed."}

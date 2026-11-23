@@ -1,0 +1,12 @@
+nqubits = [5, 10, 20]
+families = ["ising", "random"]
+layers = [1, 2, 4]
+seeds = [11, 29]
+observables = ["Z_center", "ZZ_center"]
+repeats = 5
+max_expansions = 2000000
+max_frontier_nodes = 250000
+max_runtime_seconds = 2.0
+worker_rss_limit_mib = 3072
+worker_case_timeout_seconds = 90.0
+budget_seconds = [0.0001, 0.001, 0.01, 0.1]

@@ -1,0 +1,6 @@
+{"experiment":"validated_v2","requested_terms":50000,"requested_occupancy":0.60,"gates_per_segment":16,"segments":8,"status":"skipped","reason":"campaign stopped after 50k/15% completed cases approached the configured resource budget; no approximation used"}
+{"experiment":"validated_v2","requested_terms":50000,"requested_occupancy":0.90,"gates_per_segment":16,"segments":8,"status":"skipped","reason":"campaign stopped after 50k/15% completed cases approached the configured resource budget; no approximation used"}
+{"experiment":"validated_v2","requested_terms":100000,"status":"skipped","reason":"not attempted after measured 50k allocations approached the configured resource budget"}
+{"experiment":"validated_v2","requested_terms":250000,"status":"skipped","reason":"not attempted after measured 50k allocations approached the configured resource budget"}
+{"experiment":"validated_v2","requested_terms":500000,"status":"skipped","reason":"not attempted after measured 50k allocations approached the configured resource budget"}
+{"experiment":"validated_v2","requested_terms":1000000,"status":"skipped","reason":"not attempted after measured 50k allocations approached the configured resource budget"}

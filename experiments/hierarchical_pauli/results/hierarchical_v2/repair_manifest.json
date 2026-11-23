@@ -1,0 +1,6 @@
+{
+  "source": "D:\\GitHub_Repo\\pauli_propagation_bfs\\experiments\\hierarchical_pauli\\results\\hierarchical_v2\\benchmark.interleaved_backup.jsonl",
+  "repaired": "D:\\GitHub_Repo\\pauli_propagation_bfs\\experiments\\hierarchical_pauli\\results\\hierarchical_v2\\benchmark.jsonl",
+  "valid_records": 11264,
+  "invalid_lines_discarded": 1
+}

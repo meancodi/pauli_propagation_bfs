@@ -1,0 +1,1 @@
+family,n,depth,observable,coupling,periodic,method,status,median_total_s,min_total_s,max_total_s,median_init_s,median_propagate_s,median_aggregate_s,peak_live_bytes,allocated_bytes,peak_components,peak_local_terms,peak_contributions,cross_gates,before_aggregation,expectation,error,Julia,OS,threads,CPU,seed,message

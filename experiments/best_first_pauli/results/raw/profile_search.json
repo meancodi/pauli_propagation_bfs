@@ -1,0 +1,1 @@
+{"circuit":"n=10 ising layers=4 seed=11 ZZ_center","repetitions":20,"max_expansions":500000,"sampling_interval_seconds":0.001,"counts":{"samples":252,"expand_samples":0,"search_samples":251,"heap_samples":170},"caveat":"Stack-inclusive sample counts overlap and are noisy; separate instrumented run, not benchmark runtime."}

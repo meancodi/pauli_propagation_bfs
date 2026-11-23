@@ -1,0 +1,18 @@
+nqubits = [5, 10, 20]
+families = ["ising", "random"]
+layers = [2, 4, 6, 8, 10]
+seeds = [11, 29]
+observables = ["Z_center", "ZZ_center"]
+# Seed 29 uses Z_center only; seed 11 uses both existing observables. This gives
+# independent-seed coverage without doubling the most expensive deep grid.
+case_filter = "seed == 11 || observable == Z_center"
+repeats = 3
+expansion_budgets = [1000, 10000, 100000, 1000000]
+runtime_budgets_seconds = [0.001, 0.01, 0.1, 1.0]
+accuracy_tolerances = [0.1, 0.01, 0.001, 0.0001]
+max_frontier_nodes = 250000
+accuracy_max_expansions = 1000000
+accuracy_max_runtime_seconds = 1.0
+overhead_expansions = 100000
+worker_rss_limit_mib = 3072
+worker_case_timeout_seconds = 120.0

@@ -1,0 +1,49 @@
+ Count  Overhead File                                                                                          Line Function
+ =====  ======== ====                                                                                          ==== ========
+     5         0 @Base\essentials.jl                                                                            11 length
+     5         5 @Base\essentials.jl                                                                            10 size
+     6         0 @Base\array.jl                                                                               1181 _growend_internal!(a::Vector{Main.BestFirstPauli.Path}, delta::Int64, len::Int64)
+     6         0 @Base\array.jl                                                                               1101 array_new_memory
+     6         6 @Base\boot.jl                                                                                 588 GenericMemory
+     6         6 @Base\float.jl                                                                                492 +
+     6         6 @Base\int.jl                                                                                   88 *
+     7         1 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              17 heappush!(h::Main.BestFirstPauli.Frontier, p::Main.BestFirstPauli.Path)
+     7         7 @Base\int.jl                                                                                   83 <
+     8         0 @Base\array.jl                                                                               1024 _setindex!
+     8         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              20 heappush!(h::Main.BestFirstPauli.Frontier, p::Main.BestFirstPauli.Path)
+     8         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              23 heappush!(h::Main.BestFirstPauli.Frontier, p::Main.BestFirstPauli.Path)
+     8         4 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\search.jl                10 add!
+     9         0 @Base\operators.jl                                                                            425 >
+     9         0 @Base\array.jl                                                                               1205 _growend!
+    10         0 @Base\essentials.jl                                                                           974 getindex
+    10         0 @Base\essentials.jl                                                                           389 checkbounds
+    10         0 @Base\operators.jl                                                                            481 >=
+    10        10 @Base\float.jl                                                                                623 <=
+    10         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              19 heappush!(h::Main.BestFirstPauli.Frontier, p::Main.BestFirstPauli.Path)
+    12         0 @Base\array.jl                                                                               1348 _push!
+    14         0 @Base\array.jl                                                                               1349 _push!
+    14        14 @Base\array.jl                                                                               1044 __safe_setindex!
+    14         1 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              30 heappop!(h::Main.BestFirstPauli.Frontier)
+    15         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              34 heappop!(h::Main.BestFirstPauli.Frontier)
+    18        18 @Base\essentials.jl                                                                           385 checkbounds
+    23        23 @Base\array.jl                                                                               1025 _setindex!
+    25         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              33 heappop!(h::Main.BestFirstPauli.Frontier)
+    26         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              15 heappush!(h::Main.BestFirstPauli.Frontier, p::Main.BestFirstPauli.Path)
+    26         0 @Base\array.jl                                                                               1345 push!
+    30        27 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              13 ahead
+    34        33 @Base\essentials.jl                                                                           975 getindex
+    35         4 @Base\array.jl                                                                               1020 setindex!
+    44         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\frontier.jl              32 heappop!(h::Main.BestFirstPauli.Frontier)
+    50        50 @Base\Base_compiler.jl                                                                        198 time_ns
+    64         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\search.jl                60 bestfirst(circuit::Circuit, obs::PauliWord; coefficient::Float64, max_expansions::Int64, max_frontier_nodes::Int6…
+    65         1 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\search.jl                87 bestfirst(circuit::Circuit, obs::PauliWord; coefficient::Float64, max_expansions::Int64, max_frontier_nodes::Int6…
+   113         1 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\search.jl                77 bestfirst(circuit::Circuit, obs::PauliWord; coefficient::Float64, max_expansions::Int64, max_frontier_nodes::Int6…
+   251         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\scripts\profile_search.jl     8 workload(c::Circuit, p::PauliWord)
+   251         0 D:\GitHub_Repo\pauli_propagation_bfs\experiments\best_first_pauli\src\search.jl                31 bestfirst
+   252         0 @Base\client.jl                                                                               577 _start()
+   252         0 @Base\client.jl                                                                               344 exec_options(opts::Base.JLOptions)
+   252         0 @Base\Base.jl                                                                                 309 include(mod::Module, _path::String)
+   252         0 @Base\loading.jl                                                                             3151 _include(mapexpr::Function, mod::Module, _path::String)
+   252         0 @Base\loading.jl                                                                             3091 include_string(mapexpr::typeof(identity), mod::Module, code::String, filename::String)
+   252         1 @Base\boot.jl                                                                                 489 eval(m::Module, e::Any)
+Total snapshots: 252. Utilization: 100% across all threads and tasks. Use the `groupby` kwarg to break down by thread and/or task.

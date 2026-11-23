@@ -1,0 +1,12 @@
+Test Summary:               | Pass  Total  Time
+Encoding and complex phases |  771    771  1.1s
+Test Summary:                               | Pass  Total  Time
+Dense conjugations, rotations and Cliffords | 1920   1920  5.7s
+Test Summary:              | Pass  Total  Time
+Heap order and stable ties |    2      2  0.2s
+Test Summary:                                     | Pass  Total  Time
+Order, exact agreement, seeds and resource bounds |  818    818  3.7s
+Test Summary:                 | Pass  Total  Time
+Boundary cases and validation |   24     24  0.5s
+Test Summary:        | Pass  Total  Time
+External RSS monitor |    3      3  0.0s

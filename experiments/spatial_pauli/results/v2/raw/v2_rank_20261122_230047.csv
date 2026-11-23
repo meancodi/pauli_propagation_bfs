@@ -1,0 +1,5 @@
+"family","n","layers","observable","seed","fingerprint","cut","schmidt_rank","s2_peak_components","s3_root_sum_arity","s3_reuse_events"
+"pairs","4","1","factorized","210411","b21a174b51fd80e235f5b0b85c204533b9b1fa0388e352be9f6c176defea74cb","2","1","1","1","10"
+"pairs","8","1","factorized","210811","832a3c912ed47ec002bcf2ee744f9c0d4422338fcc56c38d0752db3eeb1cc3f3","4","1","1","1","40"
+"cross","8","1","factorized","330811","2205bbc4a4cfb53b2a452243073dbdb6b8aa6e6ec3f74eb94cabd41bcb10d1be","4","2","2","2","80"
+"cross","8","2","zz","330821","b67cf7873f13f3e7b6c19e23708ec652975ec988d9c5be41d8b8dfc11f27aeb2","4","8","8","8","360"

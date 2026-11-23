@@ -1,0 +1,24 @@
+# Local Julia packages, compiled code, and machine-specific preferences
+.julia-depot/
+LocalPreferences.toml
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Python plotting tools
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Temporary benchmark state
+experiments/best_first_pauli/results/work/
+experiments/best_first_pauli/results_dfs_vs_bestfirst/work/
+*.pidfile
+*.tmp
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

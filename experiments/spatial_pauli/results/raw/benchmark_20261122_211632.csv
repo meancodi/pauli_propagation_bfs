@@ -1,0 +1,4 @@
+family,n,depth,observable,coupling,periodic,method,status,median_total_s,min_total_s,max_total_s,median_init_s,median_propagate_s,median_aggregate_s,peak_live_bytes,allocated_bytes,peak_components,peak_local_terms,peak_contributions,cross_gates,before_aggregation,expectation,error,Julia,OS,threads,seed,message
+cross,8,2,zz,2,false,S0,ok,0.0071469,0.0071248,0.0093781,4.3e-6,0.0071228,0.0,409712.0,5.161626e6,0.0,0.0,0.0,0.0,0.0,0.6685115106151792,0.0,1.13.4,NT,1,1992,
+cross,8,2,zz,2,false,S1,ok,0.005201,0.0044952,0.0071686,4.1e-5,0.0051188,0.0025439,13992.0,3.547518e6,4.0,301.0,8.0,16.0,144.0,0.6685115106151791,1.1102230246251565e-16,1.13.4,NT,1,1992,
+cross,8,2,zz,2,false,S2,ok,0.0121912,0.0091223,0.0127296,7.45e-5,0.0120198,0.0044673,17864.0,5.397175e6,8.0,172.0,8.0,16.0,224.0,0.6685115106151793,1.1102230246251565e-16,1.13.4,NT,1,1992,
